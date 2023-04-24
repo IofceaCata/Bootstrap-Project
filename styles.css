@@ -5,3 +5,43 @@
 :root {
   --bs-body-bg: var(--bs-gray-100);
 }
+.parallax {
+  /* The image used */
+  background-image: url('https://image.slidesdocs.com/responsive-images/docs/publicity-for-national-fashion-marathon-sports-page-border-background-word-template_0477759266__1131_1600.jpg');
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:5%;
+  top:0;
+  height:100%;
+  width:90%;
+  position:absolute;
+}
+.emptyContainer{
+  width: 100%;
+  height: 100px;
+}
+.cassete{
+  margin-top: 100px;
+  margin-left: 5%;
+  width: 90%;
+}
+.donateButton{
+  margin-top: 20px;
+  margin-left: 35%;
+}
+.radioButtons{
+  margin-left: 40%;
+}
